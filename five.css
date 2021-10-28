@@ -1,0 +1,150 @@
+@font-face {
+  font-family: AlegreyaSans;
+  src: url(AlegreyaSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Amaranth-Bold;
+  src: url(Amaranth-Bold.ttf);
+}
+
+@font-face {
+  font-family: AlegreyaSans-Regular;
+  src: url(AlegreyaSans-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 4rem;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+
+.header li {
+  float: left;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: AlegreyaSans;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+.header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.logo {
+  background-image: url("Covidposting_ArticleArchive (1).jpg");
+  background-size: cover;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  font-family: AlegreyaSans-Regular;
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 30vw;
+}
+
+.headImage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("BG product.png");
+  background-size: cover;
+}
+
+.centerContent {
+  margin-top: 5rem;
+  text-align: center;
+  font-family: AlegreyaSans;
+}
+
+.bigTitle {
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.bigTitle + div {
+  color: #f28528;
+}
+.beerName {
+  margin-top: 1rem;
+  font-family: Amaranth-Bold;
+  font-size: 2.3rem;
+  color: #df1616;
+  text-transform: uppercase;
+}
+.beerDes {
+  margin-top: 1rem;
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.1rem;
+  height: 5.5rem;
+}
+.seeMore {
+  font-family: Yantramanav;
+  background: #ed8b00;
+  color: white;
+  font-size: 0.8rem;
+  width: 36vh;
+  height: 7vh;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: 2px solid;
+}
+
+.image {
+  width: 4vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 30vh;
+  background-position: bottom;
+}
+
+.image1 {
+  background-image: url("Tiger 1.png");
+}
+
+.image2 {
+  background-image: url("budar.png");
+}
+
+.image3 {
+  background-image: url("Waterlee.png");
+}
+
+.image4 {
+  background-image: url("Bud light.png");
+}
+
+.image5 {
+  background-image: url("Heniken.png");
+}
+
+.image6 {
+  background-image: url("Tiger 2.png");
+}

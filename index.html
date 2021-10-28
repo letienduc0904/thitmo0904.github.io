@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body class="normal">
+    <div class="center">
+        <div class="banner"></div>
+        <div class="content">You must be of legal drinnking age to enter this site</div>
+        <div class="custom-select">
+            <select onchange="change()">
+                <option value="0">Choose country</option>
+                <option value="1">GLOBAL</option>
+                <option value="2">Brazil</option>
+                <option value="3">Canada </option>
+                <option value="4">China</option>
+                <option value="5">United KingDom</option>
+                <option value="6">United States of America</option>
+            </select>
+            <span class="custom-arrow"></span>
+        </div>
+
+        <div class="check"></div>
+
+    </div>
+</body>
+
+<script>
+    function change() {
+        window.location.replace("second.html");
+    }
+</script>
+
+</html>

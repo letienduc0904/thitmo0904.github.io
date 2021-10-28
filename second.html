@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body class="normal">
+    <div class="center">
+        <div class="banner"></div>
+        <div class="content secondContent">Are you over 18 years old?</div>
+
+        <div>
+            <button class="confirmButton" type="button" onclick="change(1)">Yes</button>
+            <button class="confirmButton" type="button" onclick="change(0)">No</button>
+
+        </div>
+
+        <div class="check"></div>
+
+    </div>
+</body>
+
+<script>
+    function change(a) {
+        if (a === 1) {
+            window.location.replace("third.html");
+        } else {
+            window.location.replace("index.html");
+
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,437 @@
+@font-face {
+  font-family: AlegreyaSans;
+  src: url(AlegreyaSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Alatsi;
+  src: url(Alatsi-Regular.ttf);
+}
+
+@font-face {
+  font-family: Yantramanav;
+  src: url(Yantramanav-Black.ttf);
+}
+
+@font-face {
+  font-family: AlegreyaSans-Medium;
+  src: url(AlegreyaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: Amaranth-Bold;
+  src: url(Amaranth-Bold.ttf);
+}
+
+@font-face {
+  font-family: AlegreyaSans-Regular;
+  src: url(AlegreyaSans-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+}
+.normal {
+  background-image: url("Artboard 1@3x.png");
+  background-size: cover;
+}
+
+.thirdHead {
+  width: 100%;
+  height: 100vh;
+  background-image: url("Artboard 2 copy@3x.png");
+  background-size: cover;
+}
+.third-img-1 {
+  width: 100%;
+  background-color: black;
+}
+
+.third-img-1 #image {
+  background-image: url(Artboard\ 8@2x.png);
+  background-size: cover;
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vh;
+  height: 70vh;
+  margin-left: -50vh;
+  margin-top: -25vh;
+}
+
+.banner {
+  background-image: url("Covidposting_ArticleArchive (1).jpg");
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+}
+
+.content {
+  font-family: AlegreyaSans;
+  text-transform: uppercase;
+  color: white;
+  font-size: 6vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  word-spacing: 0.5rem;
+}
+
+option {
+  text-transform: uppercase;
+  font-family: Alatsi;
+}
+
+.custom-select select {
+  font-size: 1.3rem;
+  background: black;
+  color: white;
+  padding: 0.4rem 0.4rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Alatsi;
+  -webkit-appearance: none;
+  text-indent: 1px;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: red;
+  height: 100%;
+  width: 2.5rem;
+  border: 0px solid red;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.custom-select {
+  position: relative;
+  width: 16.08rem;
+}
+
+.custom-arrow::before,
+.custom-arrow::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-arrow::before {
+  border-left: 0.7rem solid transparent;
+  border-right: 0.7rem solid transparent;
+  border-top: 0.7rem solid white;
+}
+
+.custom-arrow::after {
+  border-left: 0.7rem solid transparent;
+  border-right: 0.7rem solid transparent;
+  border-top: 0.7rem solid white;
+}
+
+.confirmButton {
+  text-transform: uppercase;
+  font-family: AlegreyaSans;
+  background: black;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  width: 4rem;
+  padding: 0.3rem;
+}
+
+.thirdContent {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 25vh;
+}
+
+.secondContent {
+  font-size: 4rem;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 4rem;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+
+.header li {
+  float: left;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: AlegreyaSans;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+.header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.logo {
+  background-image: url("Covidposting_ArticleArchive (1).jpg");
+  background-size: cover;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.seeMore {
+  font-family: Yantramanav;
+  background: #ed8b00;
+  color: white;
+  font-size: 1rem;
+  width: 20vh;
+  height: 5vh;
+  text-transform: uppercase;
+}
+
+.centerElement {
+  display: flex;
+  justify-content: center;
+}
+
+.finalHead {
+  width: 100%;
+  height: 100vh;
+  background-image: url("Artboard 2 copy 2@3x.png");
+  background-size: cover;
+}
+
+.fianlContent {
+  text-align: center;
+  font-size: 3.1rem;
+  margin-top: 25vh;
+  margin-bottom: 0px;
+}
+
+.watch {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: AlegreyaSans-Medium;
+  text-transform: uppercase;
+}
+
+.youtubeLogo {
+  background-image: url("Artboard 2@2x.png");
+  background-size: cover;
+  height: 10vh;
+  width: 14vh;
+  margin: 0 auto;
+}
+
+.body {
+  padding: 10vh 10vh;
+  color: #17284d;
+
+  font-family: Amaranth-Bold;
+}
+
+.bigTitle {
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.secondTitle {
+  text-transform: uppercase;
+  color: #971313;
+  margin-left: 4rem;
+}
+
+.mediumTitle {
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.body p {
+  color: #000000;
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.2rem;
+}
+
+.horseImage {
+  background-image: url("Artboard 2 copy 3@3x.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.lastImage {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+
+.image1 {
+  background-image: url("Artboard 9 copy@3x.png");
+  background-size: contain;
+  height: 100vh;
+  width: 90vh;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.image2 {
+  background-image: url("Artboard 9@3x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 90vh;
+}
+
+.third-story-title {
+  font-family: AlegreyaSans;
+  font-size: 3.6rem;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+.third-story-button {
+  display: flex;
+  justify-content: center;
+}
+.third-story-button button {
+  display: block;
+  background-color: #ed8b00;
+  font-family: Yantramanav;
+  height: 40px;
+  width: 220px;
+  border-radius: 5px;
+}
+.third-story-content {
+  display: flex;
+  justify-content: center;
+  font-family: AlegreyaSans-Regular;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-size: 1.16rem;
+}
+
+#img-left {
+  background-image: url(passion\ 1.PNG);
+  background-size: cover;
+  margin-left: 4rem;
+}
+#img-mid {
+  background-image: url(passion\ 2.PNG);
+  background-size: cover;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+#img-right {
+  background-image: url(passion\ 3.PNG);
+  background-size: cover;
+  margin-right: 4rem;
+}
+
+.third-img-3 {
+  background-image: url(ThirdArtboard\ 11@2x.png);
+  background-size: cover;
+}
+
+.carousel-cell {
+  width: 33%;
+  height: 333px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#slide-1 {
+  background-image: url(beer\ heniken.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-2 {
+  background-image: url(Beer\ budlight.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-3 {
+  background-image: url(bia\ bedweiser.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-4 {
+  background-image: url(bia\ crytal.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-5 {
+  background-image: url(bia\ radler.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#slide-6 {
+  background-image: url(bia\ tiger.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.big-title {
+  font-family: Amaranth-Bold;
+  color: #17284d;
+  font-size: 3rem;
+}
+.paragraph {
+  font-family: Amaranth-Bold;
+  color: #959595;
+  font-size: 1rem;
+}
+
+.carousel p {
+  font-family: Amaranth-Bold;
+  color: #ffffff;
+  font-size: 2.1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.third-img-2 p {
+  font-family: Amaranth-Bold;
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: flex;
+  float: right;
+  padding-top: 45px;
+}
+
+.last-title {
+  display: flex;
+  justify-content: center;
+  font-family: AlegreyaSans;
+  color: #ffffff;
+  font-size: 2.2rem;
+  padding-top: 100px;
+}
+.last-paragraph {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-family: AlegreyaSans-Regular;
+}
